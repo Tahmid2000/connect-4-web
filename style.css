@@ -1,0 +1,51 @@
+html,
+body {
+    background-color: #87CEFA;
+}
+
+#container {
+    width: 900px;
+    height: 700px;
+    margin: auto;
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    grid-template-rows: repeat(6, auto);
+    border: 2px solid black;
+}
+
+.grid-item {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    width: 93px;
+    height: 93px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.white-grid-item {
+    background-color: whitesmoke;
+}
+
+.red-grid-item {
+    background-color: red;
+}
+
+.yellow-grid-item {
+    background-color: gold;
+}
+
+#reset {
+    margin-top: 100px;
+    font-size: 150%;
+    text-align: center;
+    background-color: red !important;
+    margin: auto;
+}
+
+.smaller {
+    font-size: 40px;
+}
+
+.bigger {
+    font-size: 104px;
+}
